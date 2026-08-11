@@ -1,0 +1,35 @@
+modLoader="javafml"
+loaderVersion="[41,)"
+license="MIT"
+issueTrackerURL=""
+
+[[mods]]
+modId="miner3x3"
+version="1.0.0"
+displayName="Miner 3x3"
+logoFile=""
+credits=""
+authors="Miner 3x3 Team"
+description='''
+Miner 3x3 - Mine blocks in a 3x3 area with a single break.
+Features:
+- 3x3 area mining centered on the block being mined
+- Proper orientation based on player facing
+- Fast Mine speed boost
+- GUI with toggles
+- /mine~2 toggle command
+'''
+
+[[dependencies.miner3x3]]
+    modId="forge"
+    mandatory=true
+    versionRange="[41,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.miner3x3]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.19.2,1.20)"
+    ordering="NONE"
+    side="BOTH"

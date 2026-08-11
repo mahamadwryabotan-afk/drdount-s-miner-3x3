@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Specification-Title: miner3x3
+Specification-Vendor: miner3x3
+Specification-Version: 1
+Implementation-Title: mine 3x3
+Implementation-Version: 1.0.0
+Implementation-Vendor: miner3x3
+Implementation-Timestamp: 2026-08-11T12:42:29+0300
+
